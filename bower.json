@@ -1,0 +1,27 @@
+{
+  "name": "web-content-angularjs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ducksoupdev/web-content-angularjs",
+  "authors": [
+    "levym <ducksoupdev@gmail.com>"
+  ],
+  "description": "An example of how to use AngularJS to enhance web content",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-bootstrap": "~0.11.2",
+    "bootstrap": "~3.2.0",
+    "angular-mocks": "~1.2.26"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "web-content-angularjs",
+  "version": "0.0.1",
+  "description": "An example of how to use AngularJS to enhance web content",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower install",
+    "test": "karma start test/karma-unit.conf.js",
+    "lint": "jshint --exclude 'node_modules/*,bower_components/*'",
+    "full": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ducksoupdev/web-content-angularjs.git"
+  },
+  "author": "Matt Levy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducksoupdev/web-content-angularjs/issues"
+  },
+  "homepage": "https://github.com/ducksoupdev/web-content-angularjs",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "jshint": "^2.5.6",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5",
+    "karma-ng-scenario": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}
